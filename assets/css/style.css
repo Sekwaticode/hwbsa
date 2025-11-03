@@ -522,7 +522,7 @@ body {
   transition: var(--transition);
 }
 
-.service-card:is(:hover, :focus-within) { border-color: var(--dark-orange); }
+.service-card:is(:hover, :focus-within) { border-color: var(--prussian-blue); }
 
 .service-card .card-icon { margin-block-end: 30px; }
 
