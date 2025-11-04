@@ -162,7 +162,9 @@
                   class="btn-outline"
                   >Register</a
                 >
-                <a href="#about" class="btn-outline">Learn More</a>
+                <a href="./assets/codeofethics/HWBSA Code of Ethics for Practitioners.pdf"
+                   target="_blank"
+                   class="btn-outline">Learn More</a>
               </div>
 
               <img
@@ -596,7 +598,7 @@
                 </p>
               </div>
 
-              <!-- <a href="#about" class="btn">Learn More</a> -->
+              <!-- <a href="#register" class="btn">Learn More</a> -->
             </div>
 
             <ul class="feature-list grid-list">
@@ -619,8 +621,9 @@
                     registration number.
                   </p>
 
-                  <a href="#contact" class="card-btn" aria-label="Read more">
-                    <ion-icon name="arrow-forward"></ion-icon>
+                  <a   href="./assets/codeofethics/HWBSA Practitioner Certification.pdf"
+                  class="card-btn" target="_blank" aria-label="Read more"> Download 
+
                   </a>
                 </div>
               </li>
@@ -644,20 +647,44 @@
                     compliance with professional quality standards.
                   </p>
 
-                  <a href="#contact" class="card-btn" aria-label="Read more">
-                    <ion-icon name="arrow-forward"></ion-icon>
-                  </a>
+                  <a           href="./assets/codeofethics/HWBSA Institutional Recognition.pdf"
+ class="card-btn" target="_blank" aria-label="Read more">
+Download                  </a>
                 </div>
               </li>
+              
+          <li>
+  <div class="feature-card" style="--card-number: '03'">
+    <div class="card-icon">
+      <img
+        src="./assets/images/feature-icon-1.png"
+        width="94"
+        height="94"
+        alt="Institution Certificate"
+      />
+    </div>
 
-              <!-- <li>
-                <img
-                  src="./assets/images/Team Meeting Discussion.png"
-                  width="600"
-                  height="400"
-                  alt="Institution Certificate"
-                />
-              </li> -->
+    <h3 class="h3 card-title">HWBSA Code of Ethics</h3>
+
+    <p class="card-text">
+      The HWBSA Code of Ethics guides practitioners to uphold integrity,
+      respect, and accountability in professional conduct, ensuring every
+      action aligns with our commitment to human wellness and ethical practice.
+    </p>
+
+    <a
+      href="./assets/codeofethics/HWBSA Code of Ethics for Practitioners.pdf"
+      class="card-btn"
+      target="_blank"
+      aria-label="Read more"
+    >
+      Download
+    </a>
+  </div>
+</li>
+
+
+         
             </ul>
           </div>
         </section>
@@ -705,13 +732,20 @@
                       action="https://api.web3forms.com/submit"
                       method="POST"
                     >
+                 
+
+                      <div class="form-grid">
+                          <form
+                      id="contact-form"
+                      class="contact-form"
+                      action="https://api.web3forms.com/submit"
+                      method="POST"
+                    >
                       <input
                         type="hidden"
                         name="access_key"
                         value="2feffe0d-199b-4362-87c2-f6a05de2efac"
                       />
-
-                      <div class="form-grid">
                         <input
                           type="text"
                           name="name"
@@ -924,50 +958,47 @@
           </div>
         </section>
 
-<!-- 
-- #ETHICS GUIDELINES (replaces newsletter)
--->
-
-<section
-  class="section newsletter"
-  aria-label="ethics guidelines"
-  id="register"
->
-
+<!-- - #NEWSLETTER -->
+<section class="section newsletter" aria-label="newsletter" id="register">
   <div class="container">
     <div class="newsletter-content">
+      <figure class="newsletter-banner img-holder">
+        <img
+          src="./assets/images/hwbsa_practitoner.png"
+          width="303"
+          height="381"
+          alt="newsletter banner"
+          class="w-100"
+        />
+      </figure>
 
-      <form class="newsletter-form">
-              <h2 class="h2 section-title">Download Our Ethics Guidelines</h2>
+      <h2 class="h2 section-title ">Subscribe for offers and news</h2>
 
-        <a
-          href="./assets/codeofethics/HWBSA Practitioner Certification.pdf"
-          class="newsletter-btn"
-          download
-        >
-          Practitioner Certification
-        </a>
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="newsletter-form"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="2feffe0d-199b-4362-87c2-f6a05de2efac"
+        />
 
-        <a
-          href="./assets/codeofethics/HWBSA Institutional Recognition.pdf"
-          class="newsletter-btn"
-          download
-        >
-          Institutional Recognition
-        </a>
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Enter Your Email"
+          aria-label="email"
+          class="email-field"
+          required
+        />
 
-        <a
-          href="./assets/codeofethics/HWBSA Code of Ethics for Practitioners.pdf"
-          class="newsletter-btn"
-          download
-        >
-          Code of Ethics for Practitioners
-        </a>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
       </form>
     </div>
   </div>
 </section>
-
 
 
     <!-- 
