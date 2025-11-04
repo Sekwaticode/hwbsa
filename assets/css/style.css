@@ -841,38 +841,15 @@ body {
   #NEWSLETTER
 \*-----------------------------------*/
 
-
-.newsletter {
-  background-color: var(--dark-orange);
-  /* display: flex;
-  align-items: flex-start; */
-  /* justify-content: flex-start; */
-  /* flex-wrap: wrap; */
-  gap: 2rem;
-  padding: 20px;
-}
+.newsletter { background-color: var(--dark-orange); }
 
 .newsletter .img-holder {
   background-color: transparent;
   margin-block-end: 20px;
   max-width: max-content;
-  flex-shrink: 0;
-  margin-left: 100%;
 }
 
-.newsletter-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px; /* spacing between input and button */
-  flex-wrap: wrap; /* makes it responsive on smaller screens */
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.newsletter .section-title {
-  margin-block-end: 20px;
-}
+.newsletter .section-title { margin-block-end: 20px; }
 
 .email-field {
   background-color: var(--white);
@@ -883,13 +860,9 @@ body {
   margin-block-end: 10px;
   outline: none;
   transition: var(--transition);
-  width: 100%;
-  max-width: 400px;
 }
 
-.email-field:focus {
-  box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.4);
-}
+.email-field:focus { box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.4); }
 
 .newsletter-btn {
   background-color: var(--prussian-blue);
@@ -897,14 +870,6 @@ body {
   font-family: var(--ff-oswald);
   font-weight: var(--fw-700);
   padding: 8px 20px;
-  border: none;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.newsletter-btn:hover {
-  background-color: var(--indigo-dye);
-  /* optional hover color */
 }
 
 

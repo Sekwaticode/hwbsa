@@ -603,6 +603,7 @@
 
             <ul class="feature-list grid-list">
               <li>
+                <a>
                 <div class="feature-card" style="--card-number: '01'">
                   <div class="card-icon">
                     <img
@@ -626,6 +627,7 @@
 
                   </a>
                 </div>
+                </a>
               </li>
 
               <li>
@@ -958,23 +960,23 @@ Download                  </a>
           </div>
         </section>
 
-<!-- - #NEWSLETTER -->
-<section class="section newsletter" aria-label="newsletter" id="register">
-  <div class="container">
-    <div class="newsletter-content">
-      <figure class="newsletter-banner img-holder">
-        <img
-          src="./assets/images/hwbsa_practitoner.png"
-          width="303"
-          height="381"
-          alt="newsletter banner"
-          class="w-100"
-        />
-      </figure>
+     <!-- 
+        - #NEWSLETTER
+      -->
 
-      <h2 class="h2 section-title ">Subscribe for offers and news</h2>
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
 
-      <form
+          <figure class="newsletter-banner img-holder">
+            <img src="./assets/images/hwbsa_practitoner.png" width="303" height="381" alt="newsletter banner"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <h2 class="h2 section-title">Subscribe for offers and news</h2>
+
+                    <form
         action="https://api.web3forms.com/submit"
         method="POST"
         class="newsletter-form"
@@ -984,22 +986,19 @@ Download                  </a>
           name="access_key"
           value="2feffe0d-199b-4362-87c2-f6a05de2efac"
         />
+              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="email"
+                class="email-field">
 
-        <input
-          type="email"
-          name="email_address"
-          placeholder="Enter Your Email"
-          aria-label="email"
-          class="email-field"
-          required
-        />
+              <button type="submit" class="newsletter-btn">Subscribe Now</button>
+            </form>
 
-        <button type="submit" class="newsletter-btn">Subscribe</button>
-      </form>
-    </div>
-  </div>
-</section>
+          </div>
 
+        </div>
+      </section>
+
+    </article>
+  </main>
 
     <!-- 
   - #FOOTER
